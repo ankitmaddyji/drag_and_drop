@@ -1,0 +1,36 @@
+.container {
+    width: 100%;
+    max-width: 600px; /* Adjust the max-width to your preference */
+    height: 300px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .item.dragging {
+    opacity: 0.5;
+    transform: scale(1.1); /* Increase the size of the dragged item */
+    border: 2px solid red; /* Add a border to the dragged item */
+  }
+  
+  
+  .item {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .success {
+    color: green;
+    font-weight: bold;
+  }
+  
+  @media (min-width: 600px) {
+    /* Adjust the breakpoint as needed */
+    .container {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+  

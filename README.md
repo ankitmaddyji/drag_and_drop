@@ -1,7 +1,7 @@
 # drag_and_drop
 # Requirement->
-1.A code Editor like VS CODE
-2.A Browser like chrome or Firefox
+1. A code Editor like VS CODE
+2. A Browser like chrome or Firefox
 
 # Features->
 1. Implement a drag and drop functionality using HTML, CSS, and JavaScript.
@@ -13,5 +13,5 @@
 7. Add a reset button to clear the second container and reset the first container to its original state.
 
 # How to Run
-1.Download the code and open extract the file in one folder
-2.open the file index.html
+1. Download the code and open extract the file in one folder
+2. open the file index.html
